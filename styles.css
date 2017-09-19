@@ -15,6 +15,17 @@ html, body {
     background-color: blue;
 }
 
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+
+  > .col,
+  > [class*="col-"] {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
 .menubar > .col {
     height: auto;
     width: 20%; !important
