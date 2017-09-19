@@ -12,7 +12,6 @@
         
         <!-- jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="jquery_functions.js"></script>
     </head>
     
     <body>
@@ -43,10 +42,21 @@
                  </div> 
             </div>
             
-            <div class="home"></div>
-            <div class="browse">browse</div>
-            <div class="playlist">playlist</div>
-            <div class="bio">bio</div>
+            <div class="home">
+                home
+            </div>
+            
+            <div class="browse">
+                browse
+            </div>
+            
+            <div class="playlist">
+                playlist
+            </div>
+            
+            <div class="bio">
+                bio
+            </div>
             
             <div class="row player">
                 <div class="col">previous</div>
@@ -55,24 +65,7 @@
             </div>
         </div>
         
-    <script>
-        $(".playerbtn").click(function(){
-            $(".albumcover").show();
-            $(".home").hide();
-            $(".browse").hide();
-            $(".playlist").hide();
-            $(".bio").hide();
-        });
-        
-        $(".homebtn").click(function(){
-            $(".albumcover").hide();
-            $(".home").show();
-            $(".browse").hide();
-            $(".playlist").hide();
-            $(".bio").hide();
-        });
-    </script>
-
+    <script type="text/javascript" src="jquery_functions.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
