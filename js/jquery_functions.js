@@ -37,3 +37,13 @@ $(".biobtn").click(function(){
     $(".playlist").hide();
     $(".bio").show();
 });
+    // ---- BROWSE EP ALASVEDOT ---- //
+    $("#alas1").click(function(){
+        $(".ep1piilo").slideToggle();
+        $(".ep2piilo").slideUp();
+    });
+    $("#alas2").click(function(){
+        $(".ep2piilo").slideToggle();
+        $(".ep1piilo").slideUp();
+    });
+    // ---- BROWSE EP ALASVEDOT ---- //
