@@ -1,13 +1,13 @@
 /* ---- FOR CHANGING ICON SIZES ---- */
 .glyphicon-home, .glyphicon-music, .glyphicon-headphones, .glyphicon-list, .glyphicon-user {
     font-size: 25px;
+    margin-left: -2px; /* <-- to center icons in buttons -- */
 }
 /* ---- FOR CHANGING ICON SIZES ---- */
 
 html, body {
     height: 100%;
     background-color: pink;
-    
 }
 
 /* ---- FOR REMOVING BOOTSTRAP PADDINGS/MARGINS ---- */
@@ -28,23 +28,35 @@ html, body {
     height: 100%;
     margin: auto;
     /*  background-color: rgb(60, 60, 60); */
-/* ---- tekee taustakuvan ---- */
+    /* ---- tekee taustakuvan ---- */
     background: url("../images/traydark.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-/* ---- tekee taustakuvan ---- */
+    /* ---- tekee taustakuvan ---- */
 }
 
 .menubar > .col {
     height: auto;
-    width: 20%; !important
+    width: 20%;
     text-align: center;
     color: white;
     box-sizing: border-box;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    border: none;
+    background-color: black;
+    -webkit-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
+
+.homebtn:hover, .browsebtn:hover, .playerbtn:hover, .playlistbtn:hover, .biobtn:hover {
+    background-color: gray !important;
+}
+
+button:focus {
+    outline: none;
 }
 
 .btntext {
@@ -63,40 +75,37 @@ html, body {
 
 .player > .col {
     text-align: center;
-    color: white; !important
+    color: white;
 }
 
-
 /* ---- HOME DIV ---- */
-
-.home img{
+.home img {
     margin-top: 5em;
     margin-bottom: 3em;
     width: 100%;
 }
 
-.info{
+.info {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
     margin: 0.2em 1em 0.2em 1em; 
 }
 
-.info p{
+.info p {
     padding: 0.2em 0.2em 0.2em 0.2em; 
     text-align: center;
 }
-
 /* ---- HOME DIV ---- */
 
 /* ---- BROWSE DIV ---- */
-.epcover{
+.epcover {
     width: 100px;
     height: 100px;
     cursor: pointer;
 }
 
-.ep1{
+.ep1 {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
@@ -104,18 +113,18 @@ html, body {
     padding-top: 0.2em;
     margin-top: 0.4em;
 }
-.ep1piilo{
+
+.ep1piilo {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#alas1{
+#alas1 {
     cursor: pointer;
 }
 
-
-.ep2{
+.ep2 {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
@@ -124,13 +133,13 @@ html, body {
     margin-top: 0.4em;
 }
 
-.ep2piilo{
+.ep2piilo {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#alas2{
+#alas2 {
     cursor: pointer;
 }
 /* ---- BROWSE DIV ---- */
