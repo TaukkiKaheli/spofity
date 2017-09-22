@@ -10,6 +10,26 @@ html, body {
     background-color: pink;
 }
 
+/* ---- JW-PLAYER ---- */
+.album {
+    height: 90%;
+}
+
+#myElement {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.jw-dock, .jw-icon-rewind, .jw-icon-volume, .jw-icon-fullscreen {
+    display: none !important;
+}
+
+/*
+#myElement > .jw-controls > .jw-controlbar {
+    display: none !important;
+}
+*/
+
 /* ---- FOR REMOVING BOOTSTRAP PADDINGS/MARGINS ---- */
 .no-gutters {
   margin-right: 0;
@@ -35,6 +55,11 @@ html, body {
     -o-background-size: cover;
     background-size: cover;
     /* ---- tekee taustakuvan ---- */
+}
+
+.menubar {
+    height: 10%;
+    min-height: 60px;
 }
 
 .menubar > .col {
