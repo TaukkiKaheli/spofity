@@ -23,6 +23,7 @@ html, body {
 .jw-dock, .jw-icon-rewind, .jw-icon-volume, .jw-icon-fullscreen {
     display: none !important;
 }
+/* ---- JW-PLAYER ---- */
 
 /*
 #myElement > .jw-controls > .jw-controlbar {
@@ -133,41 +134,26 @@ button:focus {
     cursor: pointer;
 }
 
-.ep1 {
+.ep1, .ep2 {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
     padding-bottom: 0.2em;
     padding-top: 0.2em;
-    margin-top: 0.4em;
 }
 
-.ep1piilo {
+.ep1piilo, .ep2piilo {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#alas1 {
-    cursor: pointer;
+.ep1piilo > p, .ep2piilo > p {
+    margin: 0;
+    padding: 0.5em;
 }
 
-.ep2 {
-    color: #FFF;
-    background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
-    background-color: rgba(0, 0, 0, 0.4);
-    padding-bottom: 0.2em;
-    padding-top: 0.2em;
-    margin-top: 0.4em;
-}
-
-.ep2piilo {
-    color: #FFF;
-    background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
-    background-color: rgba(0, 0, 0, 0.4);
-}
-
-#alas2 {
+#alas1, #alas2 {
     cursor: pointer;
 }
 /* ---- BROWSE DIV ---- */
