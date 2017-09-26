@@ -99,11 +99,6 @@ button:focus {
     height: auto;
 }
 
-.player > .col {
-    text-align: center;
-    color: white;
-}
-
 /* ---- HOME DIV ---- */
 .home img {
     margin-left: auto;
