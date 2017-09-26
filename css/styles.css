@@ -25,12 +25,6 @@ html, body {
 }
 /* ---- JW-PLAYER ---- */
 
-/*
-#myElement > .jw-controls > .jw-controlbar {
-    display: none !important;
-}
-*/
-
 /* ---- FOR REMOVING BOOTSTRAP PADDINGS/MARGINS ---- */
 .no-gutters {
   margin-right: 0;
