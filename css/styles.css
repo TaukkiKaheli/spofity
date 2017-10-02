@@ -123,12 +123,27 @@ button:focus {
     cursor: pointer;
 }
 
+
+
 .ep1, .ep2 {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
     padding-bottom: 0.2em;
     padding-top: 0.2em;
+    
+}
+
+.ep1piilo p a{
+    text-decoration: none !important;
+    background-color: none;
+    color: #FFF;
+}
+
+.ep2piilo p a{
+    text-decoration: none !important;
+    background-color: none;
+    color: #FFF;
 }
 
 .ep1piilo, .ep2piilo {
@@ -140,10 +155,23 @@ button:focus {
 .ep1piilo > p, .ep2piilo > p {
     margin: 0;
     padding: 0.5em;
+    
 }
 
 #alas1, #alas2 {
     cursor: pointer;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0.5em;
+
+}
+
+#luku1, #luku2{
+    cursor: pointer;
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 0.5em;
+  
 }
 /* ---- BROWSE DIV ---- */
 
@@ -159,6 +187,12 @@ button:focus {
 @media only screen and (min-width: 767px) {
     .container1 {
         background-color: red;
+    }
+}
+
+@media only screen and (max-width: 245px) {
+    #luku1, #luku2, #alas1, #alas2{
+        font-size: 12px;
     }
 }
 
