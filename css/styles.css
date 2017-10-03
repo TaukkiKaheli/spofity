@@ -103,14 +103,14 @@ button:focus {
     display: block;
 }
 
-.info {
+.desc {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
     background-color: rgba(0, 0, 0, 0.4);
     margin: 0.2em 1em 0.2em 1em; 
 }
 
-.info p {
+.desc p {
     padding: 0.2em 0.2em 0.2em 0.2em; 
     text-align: center;
 }
@@ -122,8 +122,6 @@ button:focus {
     height: 100px;
     cursor: pointer;
 }
-
-
 
 .ep1, .ep2 {
     color: #FFF;
@@ -174,6 +172,69 @@ button:focus {
   
 }
 /* ---- BROWSE DIV ---- */
+
+
+/* ---- INFO DIV ---- */
+.info {
+    display: none;
+}
+
+.infobtn {
+    display: block;
+    color: white;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: 25px;
+    right: 0;
+    padding-top: 1em;
+    padding-right: 1em;
+    position: absolute;
+    z-index: 9999;
+}
+.
+
+/* ---- INFO DIV ---- */
+
+/* ---- BIO DIV ---- */
+.bio {
+    width: 100%;
+    background-color: black;
+}
+.promo {
+    width: 100%;
+}
+
+.biocontent {
+    color: white;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    background-color: rgba(0, 0, 0, 0.70) !important;
+    background: url("../images/shirt.jpg") no-repeat center center fixed;
+    background-blend-mode: color;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+.biolinkki {
+    color: rgba(212,190,170,1);
+}
+.biolinkki:hover {
+    color: rgba(253,186,123,1);
+    text-decoration: none;
+}
+.biotitle {
+    text-align: center;
+    margin-bottom: 1em;
+    margin-top:0;
+    padding-top:2em;
+}
+/* ---- BIO DIV ---- */
 
 /* ---- MEDIA QUERIES ---- */
 /* Extra small devices (portrait phones, less than 576px)*/

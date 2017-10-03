@@ -9,6 +9,18 @@ $(".playerbtn").click(function(){
     $(".playlist").hide();
     $(".biobtn").css("background-color", "black");
     $(".bio").hide();
+    $(".info").hide();
+    $(".infobtn").show();
+});
+
+$(".infobtn").click(function(){
+    $(".album").toggle(function(){
+        $(".player").hide();
+        $(".myElement").hide();
+        $(".infobtn").show();
+        $(".info").show();
+        
+    });
 });
 
 $(".homebtn").click(function(){
@@ -22,6 +34,8 @@ $(".homebtn").click(function(){
     $(".playlist").hide();
     $(".biobtn").css("background-color", "black");
     $(".bio").hide();
+    $(".info").hide();
+    $(".infobtn").hide();
 });
 
 $(".browsebtn").click(function(){
@@ -35,6 +49,8 @@ $(".browsebtn").click(function(){
     $(".playlist").hide();
     $(".biobtn").css("background-color", "black");
     $(".bio").hide();
+    $(".info").hide();
+    $(".infobtn").hide();
 });
 
 $(".playlistbtn").click(function(){
@@ -48,6 +64,8 @@ $(".playlistbtn").click(function(){
     $(".playlist").show();
     $(".biobtn").css("background-color", "black");
     $(".bio").hide();
+    $(".info").hide();
+    $(".infobtn").hide();
 });
 
 $(".biobtn").click(function(){
@@ -61,6 +79,8 @@ $(".biobtn").click(function(){
     $(".playlist").hide();
     $(this).css("background-color", "red");
     $(".bio").show();
+    $(".info").hide();
+    $(".infobtn").hide();
 });
 
 // ---- BROWSE EP ALASVEDOT ---- //
