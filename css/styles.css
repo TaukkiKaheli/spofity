@@ -171,6 +171,14 @@ button:focus {
     margin-left: 0.5em;
   
 }
+
+/*lisää soittolistaan merkit*/
+#add{
+    background-color: transparent;
+    border: none;
+    float: right;
+}
+
 /* ---- BROWSE DIV ---- */
 
 
