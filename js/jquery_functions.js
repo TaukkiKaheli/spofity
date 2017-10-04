@@ -19,7 +19,6 @@ $(".infobtn").click(function(){
         $(".myElement").hide();
         $(".infobtn").show();
         $(".info").show();
-        
     });
 });
 
@@ -84,23 +83,31 @@ $(".biobtn").click(function(){
 });
 
 // ---- BROWSE EP ALASVEDOT ---- //
-$("#alas1").click(function(){
+$(".alaspainike1").click(function(){
     $(".ep1piilo").slideToggle();
     $(".ep2piilo").slideUp();
+	$(".iconpic1").css("color", "red");
+	$(".iconpic2").css("color", "rgba(255, 255, 255, 0.95)");
+	$(".alaspainike1").css("background-color", "rgba(0, 0, 0, 0.2)");
+	$(".alaspainike2").css("background-color", "rgba(0,0,0,0)");
 });
 
-$("#alas2").click(function(){
+$(".alaspainike2").click(function(){
     $(".ep2piilo").slideToggle();
     $(".ep1piilo").slideUp();
+	$(".iconpic2").css("color", "red");
+	$(".iconpic1").css("color", "rgba(255, 255, 255, 0.95)");
+	$(".alaspainike2").css("background-color", "rgba(0, 0, 0, 0.2)");
+	$(".alaspainike1").css("background-color", "rgba(0,0,0,0)");
 });
 
-$("#luku1").click(function(){
-    $(".ep1piilo").slideToggle();
-    $(".ep2piilo").slideUp();
-});
-
-$("#luku2").click(function(){
-    $(".ep2piilo").slideToggle();
-    $(".ep1piilo").slideUp();
-});
+//$(".alaspainike1").click(function(){
+//    $(".ep1piilo").slideToggle();
+//    $(".ep2piilo").slideUp();
+//});
+//
+//$(".alaspainike2").click(function(){
+//    $(".ep2piilo").slideToggle();
+//    $(".ep1piilo").slideUp();
+//});
 // ---- BROWSE EP ALASVEDOT ---- //

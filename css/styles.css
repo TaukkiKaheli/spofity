@@ -38,6 +38,7 @@ html, body {
 }
 /* ---- FOR REMOVING BOOTSTRAP PADDINGS/MARGINS ---- */
 
+/* ---- SEKALAISTA ---- */
 .container1 {
     width: 100%;
     height: 100%;
@@ -83,6 +84,13 @@ button:focus {
     margin: 0;
 }
 
+.bio { /*ÄLÄ SIIRRÄ!!!*/
+    width: 100%;
+    background-color: black;
+	height: 90% !important;
+	overflow-y: auto !important;
+	overflow-x: hidden;
+}
 
 .home, .browse, .playlist, .bio {
     display: none;
@@ -92,6 +100,7 @@ button:focus {
     width: 100%;
     height: auto;
 }
+/* ---- SEKALAISTA ---- */
 
 /* ---- HOME DIV ---- */
 .home img {
@@ -117,10 +126,30 @@ button:focus {
 /* ---- HOME DIV ---- */
 
 /* ---- BROWSE DIV ---- */
+.levykansi {
+	width: 100px;
+	height: 100px;
+	position: relative;
+	text-decoration: none !important;
+}
+
+.levykansi:hover .glyphicon-play {
+	opacity: 0.5;
+}
+
 .epcover {
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
     cursor: pointer;
+	position: absolute;
+}
+
+.glyphicon-play {
+	font-size: 30px;
+	position: absolute;
+	text-decoration: none !important;
+	color: red;
+	padding: 35px;
 }
 
 .ep1, .ep2 {
@@ -129,16 +158,37 @@ button:focus {
     background-color: rgba(0, 0, 0, 0.4);
     padding-bottom: 0.2em;
     padding-top: 0.2em;
-    
+	display: flex;
 }
 
-.ep1piilo p a{
+.alaspainike1, .alaspainike2 {
+	cursor: pointer;
+	flex-grow: 1;
+	height: 100px;
+	-webkit-transition: background-color 0.4s;
+    transition: background-color 0.4s;
+}
+
+.alasicon1, .alasicon2 {
+	float: right;
+	height: inherit;
+}
+
+.iconpic1, .iconpic2 {
+	font-size: 50px;
+	padding: 25px;
+	-webkit-transition: color 0.4s;
+    transition: color 0.4s;
+	color: rgba(255, 255, 255, 0.95)
+}
+
+.ep1piilo p a {
     text-decoration: none !important;
     background-color: none;
     color: #FFF;
 }
 
-.ep2piilo p a{
+.ep2piilo p a {
     text-decoration: none !important;
     background-color: none;
     color: #FFF;
@@ -153,7 +203,6 @@ button:focus {
 .ep1piilo > p, .ep2piilo > p {
     margin: 0;
     padding: 0.5em;
-    
 }
 
 #alas1, #alas2 {
@@ -161,7 +210,6 @@ button:focus {
     position: absolute;
     margin-top: 30px;
     margin-left: 0.5em;
-
 }
 
 #luku1, #luku2{
@@ -169,7 +217,6 @@ button:focus {
     position: absolute;
     margin-top: 55px;
     margin-left: 0.5em;
-  
 }
 
 /*lisää soittolistaan merkit*/
@@ -178,9 +225,7 @@ button:focus {
     border: none;
     float: right;
 }
-
 /* ---- BROWSE DIV ---- */
-
 
 /* ---- INFO DIV ---- */
 .info {
@@ -199,15 +244,13 @@ button:focus {
     position: absolute;
     z-index: 9999;
 }
-.
-
 /* ---- INFO DIV ---- */
 
 /* ---- BIO DIV ---- */
-.bio {
-    width: 100%;
-    background-color: black;
+.promopic {
+	max-width: 100%;
 }
+
 .promo {
     width: 100%;
 }
@@ -227,15 +270,17 @@ button:focus {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    
 }
+
 .biolinkki {
     color: rgba(212,190,170,1);
 }
+
 .biolinkki:hover {
     color: rgba(253,186,123,1);
     text-decoration: none;
 }
+
 .biotitle {
     text-align: center;
     margin-bottom: 1em;

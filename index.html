@@ -56,14 +56,14 @@
         <!-- PLAYER DIV -->
         
         <!-- INFO DIV -->
-            <div class="info">
-                 <div class="col-12"> 
-                    <div>
-                        <h1>INFO</h1>
-                    </div>
-                 </div>
-            </div>
-            <!-- INFO DIV -->
+		<div class="info">
+			 <div class="col-12"> 
+				<div>
+					<h1>INFO</h1>
+				</div>
+			 </div>
+		</div>
+		<!-- INFO DIV -->
 
         <!-- HOME DIV-->
         <div class="home">
@@ -79,9 +79,17 @@
         <div class="browse">
             <div class="ep1">
                 <!--tämä linkki alkaa soittamaan koko ep:tä kun painaa ep kuvaa -->
-                <a href="javascript:loadPlaylist(playlistEP1);"><img class="epcover" src="exist.jpg"></a>
-                 <a id="alas1">Exist (EP)</a>
-                    <a id="luku1">Feb 2016</a>
+				<a href="javascript:loadPlaylist(playlistEP1);" class="levykansi">
+					<img class="epcover" src="exist.jpg">
+					<div class="glyphicon glyphicon-play"></div>
+				</a>
+				<div class="alaspainike1">
+					<a id="alas1">Exist (EP)</a>
+					<a id="luku1">Feb 2016</a>
+					<div class="alasicon2">
+						<span class="glyphicon glyphicon-chevron-down iconpic1"></span>
+					</div>
+				</div>
             </div>
 
             <div class="ep1piilo" style="display:none">
@@ -96,9 +104,17 @@
 
             <div class="ep2">
                 <!--tämä linkki alkaa soittamaan koko ep:tä kun painaa ep kuvaa -->
-                <a href="javascript:loadPlaylist(playlistEP2);"><img class="epcover" src="challengerdeep.jpg"></a>
-                <a id="alas2">Challenger Deep (EP)</a>
-                <a id="luku2">June 2015</a>
+                <a href="javascript:loadPlaylist(playlistEP2);" class="levykansi">
+					<img class="epcover" src="challengerdeep.jpg">
+					<div class="glyphicon glyphicon-play"></div>
+				</a>
+				<div class="alaspainike2">
+					<a id="alas2">Challenger Deep (EP)</a>
+					<a id="luku2">June 2015</a>
+					<div class="alasicon2">
+						<span class="glyphicon glyphicon-chevron-down iconpic2"></span>
+					</div>
+				</div>
             </div>
 
             <div class="ep2piilo" style="display:none">
@@ -109,45 +125,44 @@
                 <p><a href="javascript:playThisVideo('http://users.metropolia.fi/~neahu/music/Cyranoi - Another Sun To Embrace Us.mp3','challengerdeep.jpg');">Another Sun To Embrace Us</a><button id="add" onclick="addMusic('http://users.metropolia.fi/~neahu/music/Cyranoi - Another Sun To Embrace Us.mp3', 'challengerdeep.jpg', 'Another Sun To Embrace Us'); return false;"><span class="glyphicon glyphicon-plus"></span></button></p>
                 <!--nämä ovat linkkejä ettäbiisi alkaa soimaan player sivulla-->
             </div>
-
         </div>
         <!-- BROWSE DIV-->
         
         <!-- PLAYLIST DIV-->
         <div class="playlist" id="playlist">
-          <p></p>
+        	<p></p>
         </div>
         <!-- PLAYLIST DIV-->
         
         <!-- BIO DIV-->
-            <div class="bio">
-                <img class="promo" src="images/promo.jpg">
-                <div class="biocontent">
-                    <h3 class="biotitle"><b>Our story</b></h3>
-                    <p>
-                    Cyranoi is a melodic metalcore project from Finland founded in 2014 by Tomi. Two first demo singles were released within the first year, titled as 'Infinity' and 'Blindfold' and can still be found on YouTube.
-                    </p>
-                    <br>
-                    <p>
-                    The debut EP 'Challenger Deep' including four new songs was released on June 24th 2015. Two out of four songs were instrumental while two others had vocals done by Joona Jaakkola. Soon after the release of the debut EP Cyranoi expanded from a soloproject to duo when Joona joined Cyranoi as a permanent vocalist in July 2015. At that time they also began writing their second EP titled 'Exist'. Writing was done by the end of fall after which began recording process for 'Exist'.
-                    </p> 
-                    <br>
-                    <p>
-                    Second EP 'Exist' was released on February 24th 2016 including five new songs and two of them featuring guest guitar solos by Sithu Aye and Niklas Turunen (Assemble The Chariots).
-                    </p>
-                    <br>
-                    <p>
-                    Soon after releasing the second EP 'Exist' Tomi and Joona began writing and planning the debut LP. Writing process has been going on for more than a year now and it's coming together piece by piece. No release date has been set yet but they are hoping to get it done and released in the first quarter of 2018.
-                    </p>
-                    <a class="biolinkki" href="https://cyranoi.bandcamp.com">Visit our Bandcamp</a>
-                    <br>
-                    <a class="biolinkki" href="https://www.facebook.com/Cyranoi/">Visit our Facebook</a>
-                    </div>
-            </div>
-            <!-- BIO DIV-->
-        
-        </div>
-        
+		<div class="bio">
+			<div class="promopic">
+				<img class="promo" src="images/promo.jpg">
+			</div>
+			<div class="biocontent">
+				<h3 class="biotitle"><b>Our story</b></h3>
+				<p>
+				Cyranoi is a melodic metalcore project from Finland founded in 2014 by Tomi. Two first demo singles were released within the first year, titled as 'Infinity' and 'Blindfold' and can still be found on YouTube.
+				</p>
+				<br>
+				<p>
+				The debut EP 'Challenger Deep' including four new songs was released on June 24th 2015. Two out of four songs were instrumental while two others had vocals done by Joona Jaakkola. Soon after the release of the debut EP Cyranoi expanded from a soloproject to duo when Joona joined Cyranoi as a permanent vocalist in July 2015. At that time they also began writing their second EP titled 'Exist'. Writing was done by the end of fall after which began recording process for 'Exist'.
+				</p> 
+				<br>
+				<p>
+				Second EP 'Exist' was released on February 24th 2016 including five new songs and two of them featuring guest guitar solos by Sithu Aye and Niklas Turunen (Assemble The Chariots).
+				</p>
+				<br>
+				<p>
+				Soon after releasing the second EP 'Exist' Tomi and Joona began writing and planning the debut LP. Writing process has been going on for more than a year now and it's coming together piece by piece. No release date has been set yet but they are hoping to get it done and released in the first quarter of 2018.
+				</p>
+				<a class="biolinkki" href="https://cyranoi.bandcamp.com">Visit our Bandcamp</a>
+				<br>
+				<a class="biolinkki" href="https://www.facebook.com/Cyranoi/">Visit our Facebook</a>
+			</div>
+		</div>
+		<!-- BIO DIV-->
+    </div>
 
     <script type="text/javascript" src="js/jquery_functions.js"></script>
     <script type="text/javascript" src="js/jwplayer.js"></script>
