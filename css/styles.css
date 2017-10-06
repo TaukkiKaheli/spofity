@@ -229,7 +229,21 @@ button:focus {
 
 /* ---- INFO DIV ---- */
 .info {
+    color: white;
     display: none;
+    top: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.50) !important;
+    background: url("../images/bg.jpg") no-repeat center center fixed; 
+    background-blend-mode: multiply;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.myElement > .jw-title {
+    visibility: visible;
 }
 
 .infobtn {
@@ -247,10 +261,10 @@ button:focus {
 /* ---- INFO DIV ---- */
 
 /* ---- BIO DIV ---- */
-.promopic {
-	max-width: 100%;
+.bio {
+    width: 100%;
+    background-color: black;
 }
-
 .promo {
     width: 100%;
 }
@@ -272,15 +286,16 @@ button:focus {
     background-size: cover;
 }
 
+.linkinkuva {
+    margin-right: 0.5em;
+}
 .biolinkki {
     color: rgba(212,190,170,1);
 }
-
 .biolinkki:hover {
     color: rgba(253,186,123,1);
     text-decoration: none;
 }
-
 .biotitle {
     text-align: center;
     margin-bottom: 1em;
