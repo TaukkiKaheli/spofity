@@ -100,14 +100,3 @@ $(".alaspainike2").click(function(){
 	$(".alaspainike2").css("background-color", "rgba(0, 0, 0, 0.2)");
 	$(".alaspainike1").css("background-color", "rgba(0,0,0,0)");
 });
-
-//$(".alaspainike1").click(function(){
-//    $(".ep1piilo").slideToggle();
-//    $(".ep2piilo").slideUp();
-//});
-//
-//$(".alaspainike2").click(function(){
-//    $(".ep2piilo").slideToggle();
-//    $(".ep1piilo").slideUp();
-//});
-// ---- BROWSE EP ALASVEDOT ---- //
