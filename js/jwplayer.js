@@ -74,13 +74,11 @@ function addMusic(fileName, imageName, titleName) {
     };
     playlist.push(newItem);
     jwplayer().load(playlist);
-    //looppi et sais uuteen playlistiin lisätyjen biisien nimet näkyviin
-    for(var i=0; i<playlist.length; i++) {
-        //tämä printtaa kaikki uudella playlistillä olevat biisit consoliin myös sen haamun
-        console.log(playlist[i].title);
-        //tämä kakka ei suostu kuin lisäämään viimeksi lisätyn divin sisälle näkyviin
-        document.getElementById("playlist").innerHTML = playlist.title;
-        }
+   
+        console.log(newItem.title);
+        
+        document.getElementById("playlist").innerHTML += newItem.title;
+       
         
     //tällä saa consolissa näkymään lisättyjen biisien nimet
     //console.log(newItem.title);
