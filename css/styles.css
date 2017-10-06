@@ -265,6 +265,11 @@ button:focus {
     width: 100%;
     background-color: black;
 }
+
+.promopic {
+    max-width: 100%;
+}
+
 .promo {
     width: 100%;
 }
@@ -289,13 +294,16 @@ button:focus {
 .linkinkuva {
     margin-right: 0.5em;
 }
+
 .biolinkki {
     color: rgba(212,190,170,1);
 }
+
 .biolinkki:hover {
     color: rgba(253,186,123,1);
     text-decoration: none;
 }
+
 .biotitle {
     text-align: center;
     margin-bottom: 1em;
