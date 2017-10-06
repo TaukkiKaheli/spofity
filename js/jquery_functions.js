@@ -14,13 +14,17 @@ $(".playerbtn").click(function(){
 });
 
 $(".infobtn").click(function(){
-    $(".jw-title-primary").clone().appendTo(".infocontent");
+    $(".infotitle").empty();
+    $(".infolyrics").empty();
+    $(".jw-title-primary").clone().appendTo(".infotitle");
+    $(".jw-title-secondary").clone().appendTo(".infolyrics");
     $(".album").toggle(function(){
         $(".player").hide();
         $(".myElement").hide();
         $(".infobtn").show();
         $(".info").show();
-        $(".infocontent").show();      
+        $(".infotitle").show();
+        $(".infolyrics").show();
     });
 });
 
