@@ -14,11 +14,13 @@ $(".playerbtn").click(function(){
 });
 
 $(".infobtn").click(function(){
+    $(".jw-title-primary").clone().appendTo(".infocontent");
     $(".album").toggle(function(){
         $(".player").hide();
         $(".myElement").hide();
         $(".infobtn").show();
         $(".info").show();
+        $(".infocontent").show();      
     });
 });
 
