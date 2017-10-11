@@ -7,7 +7,7 @@
 
 html, body {
     height: 100%;
-    background-color: pink;
+    background-color: black;
 }
 
 /* ---- JW-PLAYER ---- */
@@ -73,7 +73,7 @@ html, body {
 }
 
 .homebtn:hover, .browsebtn:hover, .playerbtn:hover, .playlistbtn:hover, .biobtn:hover {
-    background-color: gray !important;
+    background-color: rgba(212,190,170,1) !important;
 }
 
 button:focus {
@@ -148,8 +148,12 @@ button:focus {
 	font-size: 30px;
 	position: absolute;
 	text-decoration: none !important;
-	color: red;
+	color: rgba(212,190,170,1);
 	padding: 35px;
+}
+
+#add {
+    color: rgba(212,190,170,1);
 }
 
 .ep1, .ep2 {
