@@ -165,8 +165,13 @@ button:focus {
 	cursor: pointer;
 	flex-grow: 1;
 	height: 100px;
+	background-color: rgba(0,0,0,0);
 	-webkit-transition: background-color 0.4s;
     transition: background-color 0.4s;
+}
+
+.alaspainike11, .alaspainike22{
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .alasicon1, .alasicon2 {
@@ -181,6 +186,11 @@ button:focus {
     transition: color 0.4s;
 	color: rgba(255, 255, 255, 0.95)
 }
+
+.iconpic11, .iconpic22{
+    color: red;
+}
+
 
 .ep1piilo p a {
     text-decoration: none !important;
