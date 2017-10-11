@@ -275,6 +275,14 @@ button:focus {
 }
 /* ---- INFO DIV ---- */
 
+/* -- PLAYER DIV --*/
+#playlist{
+    color: white;
+    padding-left: 7px;
+    padding-top: 7px;
+}
+/* -- PLAYER DIV --*/
+
 /* ---- BIO DIV ---- */
 .bio {
     width: 100%;
