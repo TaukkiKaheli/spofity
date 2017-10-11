@@ -112,7 +112,7 @@ function addMusic(fileName, imageName, titleName, descriptionName) {
     playlist.push(newItem);
     jwplayer().load(playlist);
         console.log(newItem.title);
-        document.getElementById("playlist").innerHTML += newItem.title;
+           document.getElementById("playlist").innerHTML += '<p>' + newItem.title +'</p>';
        
         
     //tällä saa consolissa näkymään lisättyjen biisien nimet
