@@ -1,5 +1,5 @@
 $(".playerbtn").click(function(){
-    $(this).css("background-color", "red");
+    $(this).css("background-color", "rgba(212,190,170,1)");
     $(".album").show();
     $(".homebtn").css("background-color", "black");
     $(".home").hide();
@@ -31,7 +31,7 @@ $(".infobtn").click(function(){
 $(".homebtn").click(function(){
     $(".playerbtn").css("background-color", "black");
     $(".album").hide();
-    $(this).css("background-color", "red");
+    $(this).css("background-color", "rgba(212,190,170,1)");
     $(".home").show();
     $(".browsebtn").css("background-color", "black");
     $(".browse").hide();
@@ -48,7 +48,7 @@ $(".browsebtn").click(function(){
     $(".album").hide();
     $(".homebtn").css("background-color", "black");
     $(".home").hide();
-    $(this).css("background-color", "red");
+    $(this).css("background-color", "rgba(212,190,170,1)");
     $(".browse").show();
     $(".playlistbtn").css("background-color", "black");
     $(".playlist").hide();
@@ -65,7 +65,7 @@ $(".playlistbtn").click(function(){
     $(".home").hide();
     $(".browsebtn").css("background-color", "black");
     $(".browse").hide();
-    $(this).css("background-color", "red");
+    $(this).css("background-color", "rgba(212,190,170,1)");
     $(".playlist").show();
     $(".biobtn").css("background-color", "black");
     $(".bio").hide();
@@ -82,7 +82,7 @@ $(".biobtn").click(function(){
     $(".browse").hide();
     $(".playlistbtn").css("background-color", "black");
     $(".playlist").hide();
-    $(this).css("background-color", "red");
+    $(this).css("background-color", "rgba(212,190,170,1)");
     $(".bio").show();
     $(".info").hide();
     $(".infobtn").hide();
