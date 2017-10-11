@@ -152,10 +152,6 @@ button:focus {
 	padding: 35px;
 }
 
-#add {
-    color: rgba(212,190,170,1);
-}
-
 .ep1, .ep2 {
     color: #FFF;
     background-color: rgb(0, 0, 0); /* fallback color for non supportive browsers */
@@ -192,7 +188,7 @@ button:focus {
 }
 
 .iconpic11, .iconpic22{
-    color: red;
+    color: rgba(212,190,170,1);
 }
 
 
@@ -234,10 +230,15 @@ button:focus {
 }
 
 /*lisää soittolistaan merkit*/
-#add{
+#add {
     background-color: transparent;
     border: none;
     float: right;
+    color: rgba(255, 255, 255, 0.95)
+}
+
+#add:active {
+    color: rgba(212,190,170,1);
 }
 /* ---- BROWSE DIV ---- */
 
@@ -276,10 +277,12 @@ button:focus {
 /* ---- INFO DIV ---- */
 
 /* -- PLAYER DIV --*/
-#playlist{
+#playlist {
     color: white;
     padding-left: 7px;
     padding-top: 7px;
+    height: 90%;
+    overflow-y: auto;
 }
 /* -- PLAYER DIV --*/
 
